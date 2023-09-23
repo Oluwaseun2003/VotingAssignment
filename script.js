@@ -24,18 +24,26 @@
 // }
 
 
-let dogBark  =  true;
-let lionRoar = false
+// let dogBark  =  true;
+// let lionRoar = false
 
-if (!dogBark) {
-console.log("age is greater than 20")
-} else if (!lionRoar) {
-console.log("age is less than 3")
-}
-else if (!!dogBark) {
-console.log("maybe") 
-}
-else {
-console.log("no")
-}
+// if (!dogBark) {
+// console.log("age is greater than 20")
+// } else if (!lionRoar) {
+// console.log("age is less than 3")
+// }
+// else if (!!dogBark) {
+// console.log("maybe") 
+// }
+// else {
+// console.log("no")
+// }
  
+
+// Assignment: Creating a Voting Eligibility Checker (JavaScript)
+let age = prompt("Hello there, How old are you")
+let aCitizen = prompt("Are you a citizen of Nigeria?")
+
+if (age <= 18){
+    console.log("You're eligible")
+}
