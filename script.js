@@ -48,6 +48,8 @@ let age = prompt("Hello there, what is your age?")
 // prompt to ask for citizenship
 var aCitizen = prompt("Are you a citizen of Nigeria? (yes or no)")
 
+
+// Check eligibility using conditional statements and logical operators
 if (age >= 18 && aCitizen === "yes") {
     console.log("You're eligible to vote")
 } else {
