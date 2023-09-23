@@ -44,6 +44,10 @@
 let age = prompt("Hello there, How old are you")
 let aCitizen = prompt("Are you a citizen of Nigeria?")
 
-if (age <= 18){
+if (age >= 18){
     console.log("You're eligible")
+} else if (aCitizen = "yes" ) {
+    console.log("you're eligible")
+} else{
+    console.log("you're not eligible")
 }
