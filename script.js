@@ -41,13 +41,15 @@
  
 
 // Assignment: Creating a Voting Eligibility Checker (JavaScript)
-let age = prompt("Hello there, How old are you")
-let aCitizen = prompt("Are you a citizen of Nigeria?")
 
-if (age >= 18){
-    console.log("You're eligible")
-} else if (aCitizen = "yes" ) {
-    console.log("you're eligible")
-} else{
-    console.log("you're not eligible")
-}
+// Prompt to ask user for their age
+let age = prompt("Hello there, what is your age?")
+
+// prompt to ask for citizenship
+var aCitizen = prompt("Are you a citizen of Nigeria? (yes or no)")
+
+if (age >= 18 && aCitizen === "yes") {
+    console.log("You're eligible to vote")
+} else {
+    console.log("you're not eligible to vote")
+} 
