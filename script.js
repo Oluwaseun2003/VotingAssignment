@@ -46,7 +46,7 @@
 let age = prompt("Hello there, what is your age?")
 
 // prompt to ask for citizenship
-var aCitizen = prompt("Are you a citizen of Nigeria? (yes or no)")
+let aCitizen = prompt("Are you a citizen of Nigeria? (yes or no)")
 
 
 // Check eligibility using conditional statements and logical operators
