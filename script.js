@@ -52,6 +52,8 @@ let aCitizen = prompt("Are you a citizen of Nigeria? (Answer either yes or no)")
 // Check eligibility using conditional statements and logical operators
 if (age >= 18 && aCitizen === "yes") {
     console.log("You're eligible to vote")
-} else {
-    console.log("you're not eligible to vote")
+} else if (age < 18 && aCitizen === "yes"){
+    console.log("I'm so sorry, you're not eligible to vote because you're under age")
+} else if(age >= 18 && aCitizen === "no") {
+    console.log("You're not eligible to vote because you're not a citizen of Nigeria")
 } 
